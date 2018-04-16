@@ -108,7 +108,6 @@ var init = function() {
 };
 
 function autoRunner() {
-    if (!window.zb.buttons.observe) initObserve();
     document.querySelector('#headerLinks div.links-block a:nth-child(1)').click()
     const ran = [];
     _.forEach(window.zb.autos.advisors, (value, key, ele) => {
